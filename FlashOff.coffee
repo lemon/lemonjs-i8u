@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'FlashOff'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSAxOS42OTUzMTMgMjAuNSBMIDkuNzAzMTI1IDIwLjUgTCAxNi4zNTU0NjkgMS41IEwgMjguMTY3OTY5IDEuNSBMIDIwLjE2Nzk2OSAxNi41IEwgMzAuOTM3NSAxNi41IEwgMTQuMzIwMzEzIDM2LjYxMzI4MSBaICIvPgo8cGF0aCBzdHlsZT0iIGZpbGw6IzQ3ODhDNzsiIGQ9Ik0gMjcuMzMyMDMxIDIgTCAyMC4xMTcxODggMTUuNTI3MzQ0IEwgMTkuMzMyMDMxIDE3IEwgMjkuODc4OTA2IDE3IEwgMTUuNjQ0NTMxIDM0LjIzMDQ2OSBMIDE5Ljk0OTIxOSAyMS4zMTY0MDYgTCAyMC4zODY3MTkgMjAgTCAxMC40MTAxNTYgMjAgTCAxNi43MTA5MzggMiBMIDI3LjMzMjAzMSAyIE0gMjkgMSBMIDE2IDEgTCA5IDIxIEwgMTkgMjEgTCAxMyAzOSBMIDMyIDE2IEwgMjEgMTYgWiAiLz4KPHBhdGggc3R5bGU9ImZpbGw6bm9uZTtzdHJva2Utd2lkdGg6MjtzdHJva2UtbGluZWNhcDpyb3VuZDtzdHJva2UtbGluZWpvaW46bWl0ZXI7c3Ryb2tlOiM0Nzg4Qzc7c3Ryb2tlLW9wYWNpdHk6MTtzdHJva2UtbWl0ZXJsaW1pdDoxMDsiIGQ9Ik0gMyAzIEwgMzcgMzcgIi8+CjwvZz4KPC9zdmc+Cg=="
+    }
+}

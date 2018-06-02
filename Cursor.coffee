@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'Cursor'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSAxNy43MDcwMzEgMjQuNjQ0NTMxIEwgMTAuNSAzMC41NTQ2ODggTCAxMC41IDIuMTcxODc1IEwgMzAuODk4NDM4IDIxLjc1IEwgMjEuNjc5Njg4IDIyLjkzMzU5NCBMIDI3LjUwMzkwNiAzNi42Mjg5MDYgTCAyMy41MzUxNTYgMzguMzQzNzUgWiAiLz4KPHBhdGggc3R5bGU9IiBmaWxsOiM0Nzg4Qzc7IiBkPSJNIDExIDMuMzQ3NjU2IEwgMjkuODAwNzgxIDIxLjM4NjcxOSBMIDIyLjI2OTUzMSAyMi4zNTE1NjMgTCAyMC45NjA5MzggMjIuNTE5NTMxIEwgMjEuNDc2NTYzIDIzLjczNDM3NSBMIDI2Ljg1MTU2MyAzNi4zNjMyODEgTCAyMy43OTY4NzUgMzcuNjgzNTk0IEwgMTguNDI5Njg4IDI1LjA2MjUgTCAxNy45MDYyNSAyMy44MzU5MzggTCAxNi44NzUgMjQuNjc5Njg4IEwgMTEgMjkuNSBMIDExIDMuMzQ3NjU2IE0gMTAgMSBMIDEwIDMxLjYxMzI4MSBMIDE3LjUwNzgxMyAyNS40NTMxMjUgTCAyMy4yNjk1MzEgMzkgTCAyOC4xNjAxNTYgMzYuODkwNjI1IEwgMjIuMzk4NDM4IDIzLjM0Mzc1IEwgMzIgMjIuMTEzMjgxIFogIi8+CjwvZz4KPC9zdmc+Cg=="
+    }
+}

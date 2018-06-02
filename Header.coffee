@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'Header'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSAyNi41IDM2LjUgTCAyNi41IDIyLjUgTCAxMy41IDIyLjUgTCAxMy41IDM2LjUgTCA2LjUgMzYuNSBMIDYuNSAzLjUgTCAxMy41IDMuNSBMIDEzLjUgMTcuNSBMIDI2LjUgMTcuNSBMIDI2LjUgMy41IEwgMzMuNSAzLjUgTCAzMy41IDM2LjUgWiAiLz4KPHBhdGggc3R5bGU9IiBmaWxsOiM0Nzg4Qzc7IiBkPSJNIDMzIDQgTCAzMyAzNiBMIDI3IDM2IEwgMjcgMjIgTCAxMyAyMiBMIDEzIDM2IEwgNyAzNiBMIDcgNCBMIDEzIDQgTCAxMyAxOCBMIDI3IDE4IEwgMjcgNCBMIDMzIDQgTSAzNCAzIEwgMjYgMyBMIDI2IDE3IEwgMTQgMTcgTCAxNCAzIEwgNiAzIEwgNiAzNyBMIDE0IDM3IEwgMTQgMjMgTCAyNiAyMyBMIDI2IDM3IEwgMzQgMzcgWiAiLz4KPC9nPgo8L3N2Zz4K"
+    }
+}

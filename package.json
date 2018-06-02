@@ -1,0 +1,10 @@
+{
+  "name": "lemonjs-i8u",
+  "version": "1.1.1",
+  "description": "icons8 ultraviolet icon library for lemon",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lemon/lemonjs-i8u"
+  }
+}

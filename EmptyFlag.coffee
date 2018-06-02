@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'EmptyFlag'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSA1LjUgMS41IEwgOC41IDEuNSBMIDguNSAzOC41IEwgNS41IDM4LjUgWiAiLz4KPHBhdGggc3R5bGU9IiBmaWxsOiM0Nzg4Qzc7IiBkPSJNIDggMiBMIDggMzggTCA2IDM4IEwgNiAyIEwgOCAyIE0gOSAxIEwgNSAxIEwgNSAzOSBMIDkgMzkgWiAiLz4KPHBhdGggc3R5bGU9IiBmaWxsOiNGRkZGRkY7IiBkPSJNIDUuNSAyNy41IEwgNS41IDQuNSBMIDguODkwNjI1IDQuNSBMIDMzLjgwODU5NCAxNi4wNjY0MDYgTCA4Ljg5MDYyNSAyNy41IFogIi8+CjxwYXRoIHN0eWxlPSIgZmlsbDojNDc4OEM3OyIgZD0iTSA4Ljc3NzM0NCA1IEwgMzIuNjEzMjgxIDE2LjA2MjUgTCA4Ljc4MTI1IDI3IEwgNiAyNyBMIDYgNSBMIDguNzc3MzQ0IDUgTSA5IDQgTCA1IDQgTCA1IDI4IEwgOSAyOCBMIDM1IDE2LjA3MDMxMyBaICIvPgo8L2c+Cjwvc3ZnPgo="
+    }
+}

@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'Checkmark'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSAxLjcwNzAzMSAyMi4xOTkyMTkgTCA0LjQ4NDM3NSAxOS40MjE4NzUgTCAxMy4zNjMyODEgMjguMjk2ODc1IEwgMzUuNTE1NjI1IDYuMTQ0NTMxIEwgMzguMjkyOTY5IDguOTI1NzgxIEwgMTMuMzYzMjgxIDMzLjg1NTQ2OSBaICIvPgo8cGF0aCBzdHlsZT0iIGZpbGw6IzQ3ODhDNzsiIGQ9Ik0gMzUuNTE1NjI1IDYuODUxNTYzIEwgMzcuNTg1OTM4IDguOTI1NzgxIEwgMTMuMzYzMjgxIDMzLjE0ODQzOCBMIDIuNDE0MDYzIDIyLjE5OTIxOSBMIDQuNDg0Mzc1IDIwLjEyODkwNiBMIDEyLjY1NjI1IDI4LjI5Njg3NSBMIDEzLjM2MzI4MSAyOS4wMDM5MDYgTCAzNS41MTU2MjUgNi44NTE1NjMgTSAzNS41MTU2MjUgNS40Mzc1IEwgMTMuMzYzMjgxIDI3LjU4OTg0NCBMIDQuNDg4MjgxIDE4LjcxNDg0NCBMIDEgMjIuMTk5MjE5IEwgMTMuMzYzMjgxIDM0LjU2MjUgTCAzOSA4LjkyNTc4MSBaICIvPgo8L2c+Cjwvc3ZnPgo="
+    }
+}

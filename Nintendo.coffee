@@ -1,0 +1,17 @@
+
+# Component
+module.exports = lemon.Component {
+  package: 'i8'
+  name: 'Nintendo'
+
+  data: {
+    size: 50
+  }
+
+  template: (data) ->
+    img {
+      width: data.size
+      height: data.size
+      src: "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNDAgNDAiIHZlcnNpb249IjEuMSI+CjxnIGlkPSJzdXJmYWNlMSI+CjxwYXRoIHN0eWxlPSIgZmlsbDojREZGMEZFOyIgZD0iTSAyOS4yNTM5MDYgMzcuNSBMIDExLjUgMTMuNDgwNDY5IEwgMTEuNSAzNy41IEwgMi41IDM3LjUgTCAyLjUgMi41IEwgMTEuNzM4MjgxIDIuNSBMIDI4LjUgMjYuNTkzNzUgTCAyOC41IDIuNSBMIDM3LjUgMi41IEwgMzcuNSAzNy41IFogIi8+CjxwYXRoIHN0eWxlPSIgZmlsbDojNDc4OEM3OyIgZD0iTSAzNyAzIEwgMzcgMzcgTCAyOS41MDM5MDYgMzcgTCAxMi44MDQ2ODggMTQuNDA2MjUgTCAxMSAxMS45NjQ4NDQgTCAxMSAzNyBMIDMgMzcgTCAzIDMgTCAxMS40NzY1NjMgMyBMIDI3LjE3OTY4OCAyNS41NzAzMTMgTCAyOSAyOC4xODc1IEwgMjkgMyBMIDM3IDMgTSAzOCAyIEwgMjggMiBMIDI4IDI1IEwgMTIgMiBMIDIgMiBMIDIgMzggTCAxMiAzOCBMIDEyIDE1IEwgMjkgMzggTCAzOCAzOCBaICIvPgo8L2c+Cjwvc3ZnPgo="
+    }
+}
